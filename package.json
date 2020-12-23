@@ -2,6 +2,7 @@
     "name": "vscodethemeplus",
     "displayName": "VS Code theme enhance",
     "description": "support dark/light",
+    "publisher": "justwe9517",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.52.0"
