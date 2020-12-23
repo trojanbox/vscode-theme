@@ -1,0 +1,27 @@
+{
+    "name": "tau",
+    "displayName": "tau",
+    "description": "Vscode theme enhance",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark++ (enhance)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tau-theme-color-theme.json"
+            },
+            {
+                "label": "Light++ (enhance)",
+                "uiTheme": "vs",
+                "path": "./themes/light-tau-theme-color-theme.json"
+            }
+            
+        ]
+    }
+}
