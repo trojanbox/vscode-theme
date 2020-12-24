@@ -13,16 +13,15 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dark++ (enhance)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/tau-theme-color-theme.json"
-            },
-            {
                 "label": "Light++ (enhance)",
                 "uiTheme": "vs",
                 "path": "./themes/light-tau-theme-color-theme.json"
+            },
+            {
+                "label": "Dark++ (enhance)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tau-theme-color-theme.json"
             }
-            
         ]
     }
 }
