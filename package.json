@@ -1,9 +1,9 @@
 {
     "name": "vscodethemeplus",
-    "displayName": "VS Code theme enhance",
+    "displayName": "VSCode Theme (Enhance)",
     "description": "support dark/light",
     "publisher": "justwe9517",
-    "version": "0.0.1",
+    "version": "1.2.0",
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -12,15 +12,16 @@
     ],
     "contributes": {
         "themes": [
-            {
-                "label": "Light++ (enhance)",
-                "uiTheme": "vs",
-                "path": "./themes/light-tau-theme-color-theme.json"
-            },
+            
             {
                 "label": "Dark++ (enhance)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/tau-theme-color-theme.json"
+            },
+            {
+                "label": "Light++ (enhance)",
+                "uiTheme": "vs",
+                "path": "./themes/light-tau-theme-color-theme.json"
             }
         ]
     }
